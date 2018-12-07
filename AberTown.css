@@ -1,7 +1,6 @@
 
 body {
-  background: rgba(32,178,170,0.4)
-
+  background: rgba(32,178,178,0.4)
 }
  .header {
    font-family: sans-serif;
@@ -22,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(32,178,170,0.4);
+    background-color: rgba(32,178,178,0.4);
   }
   li {
     float: center;
@@ -59,43 +58,6 @@ body {
     background: #55ACEE;
     color: white;
   }
-
-.job1{
-  background: url(TescoLogo.jpg);
-  height: 200px;
-  width: 100%;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.job2{
-  background: url(Rummers.jpg);
-  height: 200px;
-  width: 100%;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.job3{
-  background: url(Matalan.jpg)
-  height: 200px;
-  width: 100%;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 h1 {
   font-family: sans-serif;

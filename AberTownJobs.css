@@ -1,21 +1,30 @@
 
 body {
-  font-family: helvetica, sans-serif;
-  margin: 0 auto;
-  max-width: 600px;
-  background: rgb(32,178,170);
+  background: rgba(32,178,178,0.4)
 }
 ul {
-     padding: 10px;
-     background: rgba(255,255,255,1);
-     font-family: helvetica, bold;
-   }
-   li {
-     display: inline;
-     padding: 0px 10px 0px 10px;
-     font-family: helvetica;
-     font-size: 18px;
-   }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(32,178,178,0.4);
+}
+li {
+  float: center;
+}
+li a {
+  font-family: sans-serif;
+  font-size: 16px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgba(0,128,128,1);
+}
 div {
   height: 200px;
   background-size: cover;
@@ -24,13 +33,15 @@ div {
   border-radius: 12px;
 }
 h1 {
-  font-family: helvetica;
+  font-family: sans-serif;
   text-align: center;
-  font-size: 75px;
+  font-size: 50px;
   color: rgba(255,255,255,1);
   margin: 60px 0 0 0;
 }
 h2 {
+  font-family: sans-serif;
+  font-size: 35px;
   text-align: center;
   color: rgba(255,255,255,1);
   margin: 0px 0 70px 0;
@@ -53,7 +64,42 @@ p {
   -moz-transition: height .5s;
 }
 
-
+.job1{
+  background: url(TescoLogo.jpg);
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.job2{
+  background: url(Rummers.jpg);
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.job3{
+  background: url(Matalan.jpg)
+  height: 200px;
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 small {
   opacity: 0;
 }
@@ -66,6 +112,5 @@ small {
 .price {
   float: right;
 }
-
 
 </head>
