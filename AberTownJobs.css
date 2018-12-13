@@ -48,35 +48,41 @@ h2 {
   color: rgba(255,255,255,1);
   margin: 0px 0 70px 0;
 }
-/*
-p {
-  background: rgba(168,168,168,0.5);
-  color:rgb(255,255,255);
+h3{
+  font-family: sans-serif;
+  font-size: 28px;
+  color: rgba(255,255,255,1);
+}
+h4{
+  font-family: sans-serif;
+  font-size: 32px;
+  color: rgba(255,255,255,1);
+}
+p{
   font-family: sans-serif;
   font-size: 26px;
+  color: rgba(255,255,255,1);
 }
-*/
-small{
+.JobPhoto{
+
+}
+.Job1{
   background: rgba(168,168,168,0.5);
-  color:rgb(255,255,255);
-  font-family: sans-serif;
-  font-size: 20px;
 }
-.job1{
-    display: table-cell;
-    float: left;
-    width: 48%;
-    margin: 1%;
+.Job2{
+  background: rgba(168,168,168,0.5);
 }
-.job1 p {
-    word-break: break-all;
+.Job3{
+  background: rgba(168,168,168,0.8);
 }
-.job2{
-  height: 100px;
-  width: 100%;
+.column {
+  float: left;
+  width: 33.33%;
 }
-.job3{
-  height: 100px;
-  width: 100%;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 </head>

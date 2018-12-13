@@ -51,9 +51,6 @@ body {
   .jobs{
     color: rgba(255,228,225,1);
   }
-  .fun{
-    color: rgba(219,112,147,1);
-  }
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -73,7 +70,14 @@ body {
     background: #55ACEE;
     color: white;
   }
-
+  input {border: 0;
+    padding: 10px;
+    font-size: 18px;
+    }
+  .submit{
+      background: red;
+      color: white;
+    }
 h2 {
   font-family: sans-serif;
   text-align: center;
